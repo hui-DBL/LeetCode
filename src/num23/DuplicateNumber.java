@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 /**
  * Create by hui on 2017/8/16
- * 题目1：找出数组中重复的数字。
+ * 题目1：找出数组中重复的数字
  * <p>
  * 在一个长度为n的数组里的所有数字都在0~n-1的范围内。数组中某些数字是重复的，但不知道有几个数字重复了，也不知道每个数字重复了几次。
  * 请找出数组中任意一个重复的数字。
@@ -117,6 +117,26 @@ public class DuplicateNumber {
                 return;
             }
         }
+        int i = 0;
+//        while (i < n) {
+//            if (nums[i] < nums.length) {
+//                if (nums[i] != i) {
+//                    if (nums[nums[i]] == nums[i]) {
+//                        out[index] = nums[i];
+//                        index++;
+//                        i++;
+//                    } else {
+//                        int temp = nums[i];
+//                        nums[i] = nums[nums[i]];
+//                        nums[temp] = temp;
+//                    }
+//                } else {
+//                    i++;
+//                }
+//            } else {
+//                return;
+//            }
+//        }
         for (int j = 0; j < index; j++) {
             System.out.println(out[j]);
         }
