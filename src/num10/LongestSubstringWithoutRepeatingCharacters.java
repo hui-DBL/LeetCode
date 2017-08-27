@@ -18,7 +18,7 @@ class Solution {
         if (s == null || s.length() == 0) {
             return 0;
         }
-        HashMap<Character, Integer> hashMap = new HashMap<>();//元素的唯一性
+        HashMap <Character, Integer> hashMap = new HashMap<>();//元素的唯一性
         int max = 0;
         int len = 0;
         int index=0;//计数的标志位
