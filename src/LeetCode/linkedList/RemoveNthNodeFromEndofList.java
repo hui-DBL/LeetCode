@@ -1,5 +1,7 @@
 package LeetCode.linkedList;
 
+import util.ListNode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -71,14 +73,5 @@ public class RemoveNthNodeFromEndofList {
         ListNode next = listNode.next;
         re = calListNodeLen(next, re);
         return re;
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
     }
 }

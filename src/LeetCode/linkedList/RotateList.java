@@ -1,5 +1,7 @@
 package LeetCode.linkedList;
 
+import util.ListNode;
+
 public class RotateList {
     public static void main(String[] args) {
         ListNode listNode1 = new ListNode(1);

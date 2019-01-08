@@ -1,5 +1,7 @@
 package LeetCode.linkedList;
 
+import util.ListNode;
+
 public class SwapNodesinPairs {
     public static void main(String[] args) {
 
