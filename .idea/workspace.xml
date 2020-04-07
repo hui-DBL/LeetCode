@@ -1,138 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7c392f2-b455-4be4-b0f2-b0336af4cd60" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/at_2020/dfs/Recover_Binary_Search_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at_2020/dfs/ValidateBinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_Didi/Test1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_Didi/Test1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_Didi/Test2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_Didi/Test2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_Meituan/test1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_Meituan/test1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_Meituan/test1/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_Meituan/test1/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_Meituan/test1/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_Meituan/test1/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_Meituan/test2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_Meituan/test2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_NetEasy/test1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_NetEasy/test1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_NetEasy/test2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_NetEasy/test2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_PDD/test1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_PDD/test1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_PDD/test2/Main_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_PDD/test2/Main_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_PDD/test3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_PDD/test3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_PDD/test4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_PDD/test4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_Souhu/test1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_Souhu/test1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/Test_Souhu/test2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/Test_Souhu/test2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num01/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num01/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num01/TwoSum_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num01/TwoSum_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num02/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num02/ReverseInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num02/ReverseInteger_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num02/ReverseInteger_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num03/PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num03/PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num04/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num04/RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num05/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num05/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num05/AddTwoNumbers_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num05/AddTwoNumbers_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num06/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num06/LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num06/LongestCommonPrefix_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num06/LongestCommonPrefix_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num07/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num07/ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num07/ValidParentheses_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num07/ValidParentheses_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num08/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num08/MergeTwoSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num08/MergeTwoSortedLists_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num08/MergeTwoSortedLists_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num09/RemoveDuplicatesfromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num09/RemoveDuplicatesfromSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num09/RemoveDuplicatesfromSortedArray_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num09/RemoveDuplicatesfromSortedArray_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num10/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num10/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num10/LongestSubstringWithoutRepeatingCharacters_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num10/LongestSubstringWithoutRepeatingCharacters_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num11/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num11/RemoveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num11/RemoveElement_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num11/RemoveElement_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num12/ImplementStrStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num12/ImplementStrStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num12/ImplementStrStr_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num12/ImplementStrStr_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num13/SearchInsertPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num13/SearchInsertPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num13/SearchInsertPosition_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num13/SearchInsertPosition_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num14/CountAndSay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num14/CountAndSay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num14/CountAndSay_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num14/CountAndSay_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num15/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num15/LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num15/LongestPalindromicSubstring_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num15/LongestPalindromicSubstring_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num15/LongestPalindromicSubstring_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num15/LongestPalindromicSubstring_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num16/MaximumSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num16/MaximumSubarray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num16/MaximumSubarray_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num16/MaximumSubarray_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num16/MaximumSubarray_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num16/MaximumSubarray_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num16/MaximumSubarray_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num16/MaximumSubarray_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num17/ZigZagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num17/ZigZagConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num17/ZigZagConversion_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num17/ZigZagConversion_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num18/StringtoIntegerAtoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num18/StringtoIntegerAtoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num18/StringtoIntegerAtoi_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num18/StringtoIntegerAtoi_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num19/LengthofLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num19/LengthofLastWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num19/LengthofLastWord_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num19/LengthofLastWord_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num20/Sum3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num20/Sum3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num20/Sum3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num20/Sum3_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num21/ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num21/ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num21/ContainerWithMostWater_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num21/ContainerWithMostWater_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num22/IntegertoRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num22/IntegertoRoman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num23/DuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num23/DuplicateNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num24/DuplicateNumber2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num24/DuplicateNumber2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num25/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num25/PlusOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num25/PlusOne1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num25/PlusOne1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num26/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num26/AddBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num27/FindInTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num27/FindInTwoArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num28/Sqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num28/Sqrt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num28/Sqrt1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num28/Sqrt1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num29/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num29/ClimbingStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num30/Combination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num30/Combination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num31/Permutate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num31/Permutate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num32/RemoveDuplicatesfromSortedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num32/RemoveDuplicatesfromSortedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num32/RemoveDuplicatesfromSortedList1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num32/RemoveDuplicatesfromSortedList1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num33/Combination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num33/Combination.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Before/num34/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2017/Before/num34/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/CombinationSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/CombinationSumII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/CombinationSumII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/FindFirstAndLastPositionOfElementInSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/FindFirstAndLastPositionOfElementInSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/JumpGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/JumpGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/MergeSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/PermutationSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/PermutationSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/RotateImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/RotateImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/SetMatrixZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/SetMatrixZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/SpiralMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/SpiralMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/SpiralMatrixII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/SpiralMatrixII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/ValidSudoku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/ValidSudoku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/_3SumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/_3SumClosest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/_3SumClosest_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/_3SumClosest_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/_4Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/_4Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/_4Sum_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/_4Sum_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/array/_4Sum_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/array/_4Sum_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/backtracking/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/backtracking/Combinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/backtracking/GenerateParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/backtracking/GenerateParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/backtracking/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/backtracking/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/backtracking/PermutationsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/backtracking/PermutationsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/backtracking/RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/backtracking/RegularExpressionMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/backtracking/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/backtracking/Subsets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/backtracking/SubsetsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/backtracking/SubsetsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/backtracking/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/backtracking/WordSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/binerysearch/Searcha2DMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/binerysearch/Searcha2DMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/binerysearch/SearchinRotatedSortedArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/binerysearch/SearchinRotatedSortedArrayII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/dp/MinimumPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/dp/MinimumPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/dp/UniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/dp/UniquePaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/dp/UniquePathsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/dp/UniquePathsII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/linkedList/PartitionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/linkedList/PartitionList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/linkedList/RemoveDuplicatesfromSortedArrayII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/linkedList/RemoveDuplicatesfromSortedArrayII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/linkedList/RemoveDuplicatesfromSortedListII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/linkedList/RemoveDuplicatesfromSortedListII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/linkedList/RemoveNthNodeFromEndofList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/linkedList/RemoveNthNodeFromEndofList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/linkedList/RotateList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/linkedList/RotateList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/linkedList/SwapNodesinPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/linkedList/SwapNodesinPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/math/DivideTwoIntegers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/math/DivideTwoIntegers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/math/PowCal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/math/PowCal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/sort/SortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/sort/SortColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/string/DecodeWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/string/DecodeWays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/string/GenerateParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/string/GenerateParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/string/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/string/GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/string/IntegerToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/string/IntegerToRoman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/string/LetterCombinationsOfAPhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/string/LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/string/MultiplyStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/string/MultiplyStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/string/SimplifyPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/LeetCode/string/SimplifyPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/ArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/util/ArrayUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/util/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/ListNodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/util/ListNodeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/ListUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/util/ListUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/MatrixUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at_2018/util/MatrixUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="a7c392f2-b455-4be4-b0f2-b0336af4cd60" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,14 +20,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/at_2020/dfs/Recover_Binary_Search_Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="44" column="5" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="567">
+              <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -549,22 +428,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1394" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15680474" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15680474" />
       <window_info id="Structure" order="1" weight="0.24944812" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866243" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26496816" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4972332" visible="true" weight="0.16942675" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4972332" weight="0.42165604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32356688" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1044586" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5757962" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5027668" side_tool="true" weight="0.2862109" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
@@ -1045,14 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/at_2018/LeetCode/string/DecodeWays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1084,11 +954,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/at_2020/dfs/Recover_Binary_Search_Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="567">
+          <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
