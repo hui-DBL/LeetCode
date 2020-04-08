@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7c392f2-b455-4be4-b0f2-b0336af4cd60" name="Default" comment="" />
+    <list default="true" id="a7c392f2-b455-4be4-b0f2-b0336af4cd60" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/at_2020/dfs/SameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode记录.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode记录.xlsx" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/at_2020/dfs/ValidateBinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="13" selection-end-column="44" />
+            <state relative-caret-position="287">
+              <caret line="83" selection-start-line="83" selection-end-line="93" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -23,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/at_2020/dfs/Recover_Binary_Search_Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+            <state relative-caret-position="1672">
+              <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -42,10 +45,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/at_2020/dfs/SameTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="72" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="8664">
               <caret line="494" column="13" selection-start-line="494" selection-start-column="13" selection-end-line="494" selection-end-column="13" />
             </state>
           </provider>
@@ -54,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="10944">
               <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
             </state>
           </provider>
@@ -72,7 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>'</find>
       <find>sub</find>
       <find>[]</find>
       <find>toSelected</find>
@@ -102,6 +116,7 @@
       <find>idEnd</find>
       <find>at_2020.basic</find>
       <find>at_2020.basic.TreeNode</find>
+      <find>traverse</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -116,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode/array/SearchInRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/array/FindFirstAndLastPositionOfElementInSortedArray.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/array/ValidSudoku.java" />
         <option value="$PROJECT_DIR$/src/LeetCode/array/CombinationSum.java" />
@@ -167,6 +181,7 @@
         <option value="$PROJECT_DIR$/src/at_2020/basic/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/at_2020/dfs/ValidateBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/at_2020/dfs/Recover_Binary_Search_Tree.java" />
+        <option value="$PROJECT_DIR$/src/at_2020/dfs/SameTree.java" />
       </list>
     </option>
   </component>
@@ -188,8 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Recover_Binary_Search_Tree">
+  <component name="RunManager" selected="Application.SameTree">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -275,10 +290,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesfromSortedListII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at_2018.LeetCode.linkedList.RemoveDuplicatesfromSortedListII" />
+    <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at_2020.dfs.SameTree" />
       <module name="LeetCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at_2020.dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -327,19 +348,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RemoveDuplicatesfromSortedListII" />
       <item itemvalue="Application.MergeSortedArray" />
       <item itemvalue="Application.SubsetsII" />
       <item itemvalue="Application.ValidateBinarySearchTree" />
       <item itemvalue="Application.Recover_Binary_Search_Tree" />
+      <item itemvalue="Application.SameTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SameTree" />
         <item itemvalue="Application.Recover_Binary_Search_Tree" />
         <item itemvalue="Application.ValidateBinarySearchTree" />
         <item itemvalue="Application.SubsetsII" />
         <item itemvalue="Application.MergeSortedArray" />
-        <item itemvalue="Application.RemoveDuplicatesfromSortedListII" />
       </list>
     </recent_temporary>
   </component>
@@ -427,22 +448,23 @@
     <option name="totallyTimeSpent" value="148356000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="46" y="23" width="1394" height="877" extended-state="6" />
+    <frame x="45" y="23" width="1395" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15680474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15890613" />
       <window_info id="Structure" order="1" weight="0.24944812" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866243" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26496816" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4972332" weight="0.42165604" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4972332" visible="true" weight="0.22802548" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32356688" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5757962" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21146497" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5027668" side_tool="true" weight="0.2862109" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
@@ -588,24 +610,6 @@
           <properties />
           <option name="timeStamp" value="310" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/at_2020/dfs/ValidateBinarySearchTree.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="321" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/at_2020/dfs/ValidateBinarySearchTree.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="322" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/at_2020/dfs/Recover_Binary_Search_Tree.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="324" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -639,16 +643,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/at_2018/LeetCode/array/MergeIntervals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/at_2018/LeetCode/backtracking/PermutationsII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -931,34 +925,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/at_2020/basic/TreeNode.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/List.java">
+    <entry file="file://$PROJECT_DIR$/src/at_2020/dfs/Recover_Binary_Search_Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
+        <state relative-caret-position="1672">
+          <caret line="90" column="21" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
+        <state relative-caret-position="8664">
           <caret line="494" column="13" selection-start-line="494" selection-start-column="13" selection-end-line="494" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/at_2020/dfs/ValidateBinarySearchTree.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/at_2020/dfs/Recover_Binary_Search_Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="10944">
+          <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -967,6 +954,23 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at_2020/dfs/ValidateBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="83" selection-start-line="83" selection-end-line="93" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at_2020/dfs/SameTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="59" column="8" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
