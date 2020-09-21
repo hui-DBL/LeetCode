@@ -31,7 +31,101 @@ public class MergeKSortedLists {
 		listNodes[0] = listNode0;
 		listNodes[1] = listNode00;
 		listNodes[2] = listNode000;
-		ListNodeUtil.show(mergeKLists(listNodes));
+		ListNodeUtil.show(mergeKLists1(listNodes));
+	}
+
+	public static ListNode mergeKLists1(ListNode[] lists) {
+		if (lists == null) {
+			return null;
+		}
+		int len = lists.length;
+		if (len == 0) {
+			return null;
+		}
+		if (len == 1) {
+			return lists[0];
+		}
+
+		int group = len / 2;
+		if (len % 2 != 0) {
+			group++;
+		}
+
+		while (len > 1) {
+			ListNode[] listTmp = new ListNode[group];
+			for (int i = 0; i < group; i++) {
+				ListNode[] tmpLists = new ListNode[2];
+				if (2 * i < len) {
+					tmpLists[0] = lists[2 * i];
+				}
+				if (2 * i + 1 < len) {
+					tmpLists[1] = lists[2 * i + 1];
+				}
+				listTmp[i] = merge2Lists(tmpLists);
+			}
+
+			len = group;
+			group = len / 2;
+			if (len % 2 != 0) {
+				group++;
+			}
+			lists = listTmp;
+
+			if (len == 1) {
+				return lists[0];
+			}
+		}
+
+		return null;
+	}
+
+	public static ListNode merge2Lists(ListNode[] lists) {
+		if (lists == null || lists.length == 0) {
+			return null;
+		}
+		ListNode listNode1 = lists[0];
+		ListNode listNode2 = lists[1];
+		if (listNode1 == null && listNode2 == null) {
+			return null;
+		}
+		if (listNode1 != null && listNode2 == null) {
+			return listNode1;
+		}
+		if (listNode1 == null && listNode2 != null) {
+			return listNode2;
+		}
+
+		ListNode tmpNode = new ListNode(1);
+		ListNode head = new ListNode(1);
+
+		if (listNode1.val <= listNode2.val) {
+			tmpNode = listNode1;
+			listNode1 = listNode1.next;
+		} else {
+			tmpNode = listNode2;
+			listNode2 = listNode2.next;
+		}
+		head = tmpNode;
+
+		while (listNode1 != null && listNode2 != null) {
+			if (listNode1.val <= listNode2.val) {
+				tmpNode.next = listNode1;
+				listNode1 = listNode1.next;
+			} else {
+				tmpNode.next = listNode2;
+				listNode2 = listNode2.next;
+			}
+			tmpNode = tmpNode.next;
+		}
+
+		if (listNode1 != null && listNode2 == null) {
+			tmpNode.next = listNode1;
+		}
+		if (listNode1 == null && listNode2 != null) {
+			tmpNode.next = listNode2;
+		}
+
+		return head;
 	}
 
 	public static ListNode mergeKLists(ListNode[] lists) {
