@@ -20,9 +20,6 @@ public class RestoreIpAddresses {
 			return list;
 		}
 		for (int i = 0; i < 3; i++) {
-			if (s.length() < i + 1) {
-				continue;
-			}
 			String head = s.substring(0, i + 1);
 			if (head.length() > 1 && "0".equals(head.substring(0, 1))) {
 				continue;
@@ -36,6 +33,7 @@ public class RestoreIpAddresses {
 	}
 
 	private static void buildIp(List<String> list, String in, String out, int times) {
+		// 推出条件
 		if (times == 0) {
 			if ("".equals(out)) {
 				list.add(in);

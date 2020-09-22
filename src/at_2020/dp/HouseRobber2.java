@@ -7,7 +7,7 @@ package at_2020.dp;
 public class HouseRobber2 {
 
 	public static void main(String[] args) {
-		int[] nums = {1,2,3,4};
+		int[] nums = {1, 2, 3, 4};
 		System.out.println(rob(nums));
 
 	}
@@ -16,44 +16,34 @@ public class HouseRobber2 {
 		if (nums.length == 0) {
 			return 0;
 		}
-		int[] numMax = new int[4];
-		boolean headSelect = false;
+		if (nums.length == 1) {
+			return nums[0];
+		}
+		// 切换成2列
+		int[] nums1 = new int[nums.length - 1];
+		int[] nums2 = new int[nums.length - 1];
+
+		System.arraycopy(nums, 0, nums1, 0, nums.length - 1);
+		System.arraycopy(nums, 1, nums2, 0, nums.length - 1);
+
+		return Math.max(rob1(nums1), rob1(nums2));
+	}
+
+	public static int rob1(int[] nums) {
+		if (nums.length == 0) {
+			return 0;
+		}
+		int[] numMax = new int[nums.length];
 
 		for (int i = 0; i < nums.length; i++) {
 			if (i == 0) {
 				numMax[i] = nums[i];
-				headSelect = true;
 			} else if (i == 1) {
-				// 能不选则不选，确保tail可选
-				if (nums[1] <= nums[2]) {
-					numMax[i] = nums[2];
-					headSelect = false;
-				} else {
-					numMax[i] = nums[1];
-				}
-			} else if (i == nums.length - 1) {
-				if (headSelect) {
-					numMax[i] = numMax[i - 1];
-				} else {
-					// preMax(n-2) + self
-					int selfMax = numMax[i - 2] + nums[i];
-					numMax[i] = Math.max(selfMax, numMax[i - 1]);
-				}
+				numMax[i] = Math.max(nums[i], nums[i - 1]);
 			} else {
-				if (headSelect) {
-					// preMax(n-2) + self
-					int selfMax = numMax[i - 2] + nums[i];
-					if (selfMax <= numMax[i - 1]) {
-						numMax[i] = numMax[i - 1];
-						headSelect = false;
-					} else {
-						numMax[i] = selfMax;
-					}
-				} else {
-					// preMax(n-2) + self
-					int selfMax = numMax[i - 2] + nums[i];
-					numMax[i] = Math.max(selfMax, numMax[i - 1]);
-				}
+				// preMax(n-2) + self
+				int selfMax = numMax[i - 2] + nums[i];
+				numMax[i] = Math.max(selfMax, numMax[i - 1]);
 			}
 		}
 
