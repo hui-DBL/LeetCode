@@ -31,7 +31,7 @@ public class ValidateBinarySearchTree {
 			return true;
 		}
 		// 是否结束
-		if (idEnd(root, lower, upper)) {
+		if (isEnd(root, lower, upper)) {
 			return false;
 		}
 		if (!dfs(root.left, lower, root.val)) {
@@ -44,7 +44,7 @@ public class ValidateBinarySearchTree {
 		return true;
 	}
 
-	private static boolean idEnd(TreeNode node, Integer lower, Integer upper) {
+	private static boolean isEnd(TreeNode node, Integer lower, Integer upper) {
 		// 过滤叶子节点
 		if (node.left != null) {
 			if (node.left.val >= node.val) {
@@ -80,6 +80,7 @@ public class ValidateBinarySearchTree {
 		return false;
 	}
 }
+
 
 class TreeNode {
 	int val;
