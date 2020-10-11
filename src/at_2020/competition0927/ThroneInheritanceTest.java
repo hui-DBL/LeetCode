@@ -1,4 +1,4 @@
-package at_2020.test0927;
+package at_2020.competition0927;
 
 import java.util.*;
 
